@@ -1,6 +1,6 @@
 h1 {font-size: 100px;}
 h2{font-size: 60px;}
-body{background-color: bisque;}
+body{background-color: gold;}
 .picture{
     border-radius: 200px;
 }
@@ -10,8 +10,8 @@ body{background-color: bisque;}
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
-li {font-weight: bold;
-    font-style: oblique;
+ol li {font-weight: bold;
+    
     line-height: 30px;
     color: indigo;
     list-style: circle;
@@ -27,4 +27,16 @@ li {font-weight: bold;
 }
 .apresentacao h1{
     text-align: center;
+} 
+.apresentacao img{
+    padding: 100px;
+    background-color: green;
+}
+#apresent{
+    padding: 40px;
+    background-color: yellowgreen;
+}
+ol li.impar{
+    background-color: yellow;
+    font-style: italic;
 }
